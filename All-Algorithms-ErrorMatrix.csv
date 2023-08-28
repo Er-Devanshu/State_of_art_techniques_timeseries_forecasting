@@ -1,0 +1,11 @@
+Model Type,Algorithm,MAE-Country,MAE-State,MAE-Store,MAE-Overall
+Non-Hierarchical,LSTM-Stateless,3.513,1.777,1.093,2.128
+Non-Hierarchical,LSTM-Stateful,3.355,1.877,1.108,2.113
+Non-Hierarchical,TemporalFusionTransformer,3.996,1.834,1.084,2.305
+Non-Hierarchical,NeuralProphet,3.725,1.919,1.169,2.271
+Non-Hierarchical,DeepAR,3.971,2.464,1.236,2.557
+Non-Hierarchical,BHM-Nixtla-Pooled,3.898,2.234,1.144,2.425
+Hierarchical,BHM-Nixtla-BottomUp,3.58,2.072,1.144,2.265
+Hierarchical,BHM-Nixtla-TopDown,3.898,2.246,1.179,2.441
+Hierarchical,BHM-Nixtla-MiddleOut,3.82,2.234,1.176,2.41
+Hierarchical,BHM-Nixtla-MinTrace,3.853,2.206,1.173,2.411
